@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Responsive navigation bar - Bedimcode</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="/" class="nav__logo">
+                        <img src="logodyv.png" alt="">
+                    </a>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-3-line nav__toggle-menu"></i>
+                        <i class="ri-close-line nav__toggle-close"></i>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li><a href="" class="nav__link">Nosotros</a></li>
+                        <li class="dropdown__item">
+                            <a href="#" class="nav__link dropdown__button">
+                                Modelos
+                                <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </a>
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-flashlight-line"></i>
+                                        </div>
+
+                                        <span class="dropdown__title">Título 1</span>
+
+                                        <ul class="dropdown__list">
+                                            <li><a href="#" class="dropdown__link">Opción 1</a></li>
+                                            <li><a href="#" class="dropdown__link">Opción 2</a></li>
+                                            <li><a href="#" class="dropdown__link">Opción 3</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-heart-line"></i>
+                                        </div>
+
+                                        <span class="dropdown__title">Titulo 2</span>
+
+                                        <ul class="dropdown__list">
+                                            <li><a href="#" class="dropdown__link">Opción 1</a></li>
+                                            <li><a href="#" class="dropdown__link">Opción 2</a></li>
+                                            <li><a href="#" class="dropdown__link">Opción 3</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-book-line"></i>
+                                        </div>
+
+                                        <span class="dropdown__title">Título 3</span>
+
+                                        <ul class="dropdown__list">
+                                            <li><a href="#" class="dropdown__link">Opción 1</a></li>
+                                            <li><a href="#" class="dropdown__link">Opción 2</a></li>
+                                            <li><a href="#" class="dropdown__link">Opción 3</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-book-line"></i>
+                                        </div>
+
+                                        <span class="dropdown__title">Título 3</span>
+
+                                        <ul class="dropdown__list">
+                                            <li><a href="#" class="dropdown__link">Opción 1</a></li>
+                                            <li><a href="#" class="dropdown__link">Opción 2</a></li>
+                                            <li><a href="#" class="dropdown__link">Opción 3</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown__item">
+                            <a href="#" class="nav__link dropdown__button">
+                                Modelos 2
+                            </a>
+                            
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-code-line"></i>
+                                        </div>
+
+                                        <span class="dropdown__title">Titulo 4</span>
+
+                                        <ul class="dropdown__list">
+                                            <li><a href="#" class="dropdown__link">Opcion 1</a></li>
+                                            <li><a href="#" class="dropdown__link">Opcion 2</a></li>
+                                            <li><a href="#" class="dropdown__link">Opcion 3</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-attachment-2"></i>
+                                        </div>
+
+                                        <span class="dropdown__title">Titulo 5</span>
+
+                                        <ul class="dropdown__list">
+                                            <li><a href="#" class="dropdown__link">Opcion 1</a></li>
+                                            <li><a href="#" class="dropdown__link">Opcion 2</a></li>
+                                            <li><a href="#" class="dropdown__link">Opcion 3</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-pencil-fill"></i>
+                                        </div>
+
+                                        <span class="dropdown__title">Titulo 6</span>
+
+                                        <ul class="dropdown__list">
+                                            <li><a href="#" class="dropdown__link">opción 1</a></li>
+                                            <li><a href="#" class="dropdown__link">Opción 2</a></li>
+                                            <li><a href="#" class="dropdown__link">Opcion 3</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li><a href="" class="nav__link">Cosa 1</a></li>
+                        <li><a href="" class="nav__link">Cosa 2</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="main.js"></script>
+    </body>
+</html>
